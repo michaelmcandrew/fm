@@ -5,9 +5,9 @@ package = CiviCRM
 dependencies[] = civicrm
 dependencies[] = webform
 
-; Information added by drupal.org packaging script on 2011-11-09
-version = "7.x-2.2"
+; Information added by drupal.org packaging script on 2011-12-15
+version = "7.x-2.3"
 core = "7.x"
 project = "webform_civicrm"
-datestamp = "1320797615"
+datestamp = "1323909716"
 

@@ -10,8 +10,6 @@ function webform_civicrm_parse_name(name) {
   return name;
 }
 
-var stateProvinceCache = {};
-
 function webform_civicrm_populate_states(stateSelect, countryId) {
   $(stateSelect).attr('disabled', 'disabled');
   if (stateProvinceCache[countryId]) {
@@ -32,33 +30,67 @@ function webform_civicrm_populate_states(stateSelect, countryId) {
 function webform_civicrm_fill_options(element, data) {
   var value = $(element).val();
   $(element).find('option').remove();
+  var dataEmpty = true;
+  var noCountry = false;
   for (key in data) {
-    $(element).append('<option value="'+key+'">'+data[key]+'</option>');
+    if (key === '') {
+      noCountry = true;
+    }
+    dataEmpty = false;
+    break;
   }
-  $(element).val(value);
+  if (!dataEmpty) {
+    if (!noCountry) {
+      if ($(element).hasClass('required')) {
+        var text = webformSelectSelect;
+      }
+      else {
+        var text = webformSelectNone;
+      }
+      if ($(element).hasClass('has-default')) {
+        $(element).removeClass('has-default');
+      }
+      else {
+        $(element).append('<option value="">'+text+'</option>');
+      }
+    }
+    for (key in data) {
+      $(element).append('<option value="'+key+'">'+data[key]+'</option>');
+    }
+    $(element).val(value);
+  }
+  else {
+    $(element).removeClass('has-default');
+    $(element).append('<option value="-">'+webformSelectNa+'</option>');
+  }
   $(element).removeAttr('disabled');
 }
 
 function webform_civicrm_shared_address(item, action, speed) {
   var name = webform_civicrm_parse_name($(item).attr('name'));
-  fields = $(item).parents('form.webform-client-form').find('[name*="['+(name.replace('master_id', ''))+'"]').not(item).not('[name*=location_type_id]').parent();
+  fields = $(item).parents('form.webform-client-form').find('[name*="['+(name.replace('master_id', ''))+'"]').not(item).not('[name*=location_type_id]').not('[type="hidden"]');
   if (action === 'hide') {
-    $(fields).hide(speed);
+    $(fields).not(':hidden').parent().hide(speed);
+    $(fields).attr('disabled', 'disabled');
   }
   else {
-    $(fields).show(speed);
+    $(fields).removeAttr('disabled');
+    $(fields).parent().show(speed);
   }
 }
 
 $(document).ready(function(){
   // Replace state/prov textboxes with dynamic select lists
-  $('form.webform-client-form').find('input[name*="_address_state_province_id"][name*="[civicrm_"]').each(function(){
+  $('form.webform-client-form').find('input[name*="_address_state_province_id"][name*="[civicrm_"][type="text"]').each(function(){
     var id = $(this).attr('id');
     var name = $(this).attr('name');
     var key = webform_civicrm_parse_name(name);
     var value = $(this).val();
     var countrySelect = $(this).parents('form.webform-client-form').find('[name*="['+(key.replace('state_province','country' ))+']"]');
     var classes = $(this).attr('class').replace('text', 'select');
+    if (value !== '') {
+      classes = classes + ' has-default';
+    }
     $(this).replaceWith('<select id="'+id+'" name="'+name+'" class="'+classes+'"><option selected="selected" value="'+value+'"> </option></select>');
     var countryVal = 'default';
     if (countrySelect.length === 1) {

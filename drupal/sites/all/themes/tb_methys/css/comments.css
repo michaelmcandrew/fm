@@ -1,0 +1,200 @@
+/**
+ * 
+ * TODO: check classes still apply in D7 - in particular the unpublished classes and the extra classes.
+ */
+ 
+/* Comment wrapper */
+#comments {
+  border-top: 1px solid #e5e5e5;
+  margin-top: 1.5em;
+  padding-top: 1em;
+}
+
+#comments > h2 {
+  border-top: 1px solid #e5e5e5;
+  color: #111;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  font-weight: normal;
+}
+
+#comments > h2:first-child {
+  border-top: 0;
+  padding-top: 0;
+  margin-top: 0.5em;
+}
+
+/* Individual comment */
+.comment {
+  background: #f5f5f5;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+/* Indentation */
+#comments .indented {
+  background: url(../images/indent-tree.gif) no-repeat left top;
+  margin-bottom: 1em;
+  margin-left: 0;
+  padding-left: 30px;
+}
+
+#comments .indented .comment {
+}
+
+/* Comment Title */
+.comment > .header {
+}
+
+.comment-title {
+  color: #111;
+  margin: 0;
+  padding: 0;  
+  font-weight: normal;
+}
+
+.comment-title a {
+  color: #111;
+  text-decoration: none;
+}
+
+.comment-title a:hover,
+.comment-title a:active,
+.comment-title a:focus {
+  color: #ff0066;
+  text-decoration: none;
+}
+
+/* Skinr comment title alignment. */
+.ta-l .comment-title {
+  text-align: left;
+}
+
+.ta-r .comment-title {
+  text-align: right;
+}
+
+.ta-c .comment-title {
+  text-align: center;
+}
+
+/* Comment "new" title */
+.comment-title .new {
+  color: #ff0066;
+}
+
+/* User Picture */
+.comment .user-picture {
+}
+
+.comment .user-picture img {
+}
+
+/* Comment Content */
+.comment-content {
+}
+
+/* Submitted */
+.comment > .footer {
+  color: #aaa;
+  font-size: 0.92em;
+  margin: .5em 0 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.comment > .footer .username {
+}
+
+.comment > .footer .time {
+}
+
+.comment > .footer a {
+  color: #111;
+}
+
+.comment > .footer a:hover,
+.comment > .footer a:active,
+.comment > .footer a:focus {
+  color: #660022;
+}
+
+/* Links */
+.comment .comment-links {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.comment ul.links {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.comment ul.links li {
+  border-right: 1px solid #E5E5E5;
+  font-family: Arial,Helvetica,sans-serif;
+  margin: 0 5px 0 0;
+  padding: 0 5px 0 0;  
+}
+
+.comment ul.links li.last {
+  border-right: none;
+}
+
+.comment ul.links li a {
+  background: url(../images/read-more.png) no-repeat 100% 5px;
+  color: #660022;
+  padding: 0 10px 0 0;
+  display: inline-block;
+}
+
+/* Core comment link classes. */
+ul.links li.comment_reply a {
+}
+
+ul.links li.comment_edit a {
+}
+
+ul.links li.comment_delete a {
+}
+
+.comment ul.links li.first {
+}
+
+.comment ul.links li.last {
+}
+
+/**
+ * Different status for comments
+ */
+ 
+/* Author */
+.comment-by-anonymous {
+}
+
+.comment-by-node-author {
+}
+
+.comment-by-viewer {
+}
+
+/* New */
+.comment-new {
+}
+
+/* Unpublished */
+.comment-unpublished {
+}
+.comment-unpublished .unpublished {
+}
+
+/**
+ * Comment Form
+ */
+ 
+.comment-form-wrapper h2 {
+  color: #111;
+  font-weight: normal;
+}
+ 

@@ -1,0 +1,372 @@
+/* --- Articles (nodes) --- */
+.article {
+  margin-bottom: 15px; /* Articles spacing */
+}
+
+/* Teaser */
+.node-teaser {
+}
+
+.node-blog,
+.node-article,
+.node-poll {
+  border-bottom: 1px solid #e5e5e5;
+  margin-left: 80px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.node-full {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* Article Title */
+.article > .header {
+}
+
+.node-title {
+  color: #111;
+  font-size: 2.5em;
+  margin: 0;
+  font-weight: normal;
+}
+
+.node-title a,
+.node-title a:visited {
+  color: #111;
+}
+
+.node-title a:hover,
+.node-title a:active,
+.node-title a:focus {
+  color: #ff0066;
+  text-decoration: none;
+}
+
+.submitted-date {
+  background: url(../images/date-bg.png) 0 0 no-repeat;
+  color:#fff;
+  display: block;
+  height: 60px;  
+  font-weight: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  left: -80px;
+  top: 5px;
+  text-align: center;
+  width: 60px;
+}
+
+.submitted-date span {
+  display: block;
+  font-size: 3em;
+}
+
+.submitted-date .date {
+  padding: 3px 0 3px 0;
+}
+
+.submitted-date .month {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.912em;
+  text-transform: uppercase;
+}
+
+/* User Picture */
+.article .user-picture {
+  display: inline;
+  margin-right: .5em;
+}
+
+.article .user-picture img {
+}
+
+/* Meta */
+.node-author {
+}
+
+.username {
+}
+
+.article > .submitted {
+  color: #aaa;
+  line-height: 1;
+  padding: 0.455em 0 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.912em;
+}
+
+.article > .submitted a {
+  color: #111;
+}
+
+.article > .submitted a:hover,
+.article > .submitted a:active,
+.article > .submitted a:focus {
+  color: #660022;
+}
+
+.article > .submitted .username {
+}
+
+.article > .submitted .time {
+}
+
+/* Field Image */
+.article .field-type-image {
+  margin-bottom: 1em;
+}
+
+.article .field-type-image img {
+  border: 1px solid #000;
+}
+
+/* Article Lists */
+.article ul {
+}
+
+.article ul li {
+}
+
+.article ol {
+}
+
+.article ol li {
+}
+
+/* Article Links */
+.article .menu {
+  margin-bottom: .5em;
+  margin-top: 1.5em;
+}
+
+.article ul.links {
+  color: #999;  
+  margin: 0;
+  font-size: 0.912em;
+}
+
+.article ul.links li {
+  border-right: 1px solid #e5e5e5;
+  margin: 0 5px 0 0;
+  padding: 0 5px 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.article ul.links li.last {
+  border-right: none;
+}
+
+.article ul.links li a {
+  background: url(../images/read-more.png) no-repeat 100% 5px;
+  color: #660022;
+  padding: 0 10px 0 0;
+  display: inline-block;
+}
+
+.article ul.links li a:hover,
+.article ul.links li a:active,
+.article ul.links li a:focus {
+  text-decoration: underline;
+}
+
+.article ul.links li.node-readmore a {  
+}
+
+.article ul.links li.node-readmore a:hover {
+  text-decoration: underline;
+}
+
+.article ul.links li.comment-add a {
+}
+
+.article ul.links li.comment-comments a {
+}
+
+.article ul.links li.comment-new-comments a {
+}
+
+.article ul.links li.blog_usernames_blog a {
+}
+
+.article ul.links li.print_html a {
+}
+
+.article ul.links li.print_email a {
+}
+
+.article ul.links li.print_pdf a {
+}
+
+.article ul.links li.first {
+}
+
+.article ul.links li.last {
+}
+
+/* Workflow states */
+.article-add {
+}
+
+.article-edit {
+}
+
+.article-delete {
+}
+
+.article-preview {
+}
+
+.article-sticky {
+}
+
+.article-promoted {
+}
+
+/* Status */
+.article-unpublished {
+}
+
+/* --- Blogs --- */
+.page-blog .article {
+}
+
+/* Teaser */
+.page-blog .node-teaser {
+}
+
+/* Blog Title */
+.node-blog > .header {
+}
+
+.node-blog .node-title {
+}
+
+.node-blog .node-title a,
+.node-blog .node-title a:visited {
+}
+
+.node-blog .node-title a:hover,
+.node-blog .node-title a:active,
+.node-blog .node-title a:focus {
+}
+
+/* Blog User Picture */
+.node-blog .user-picture {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.node-blog .user-picture img {
+}
+
+/* Blog Meta */
+.node-blog > .submitted {
+}
+
+.node-blog > .submitted a {
+}
+
+.node-blog > .submitted a:hover,
+.node-blog > .submitted a:active,
+.node-blog > .submitted a:focus {
+}
+
+.node-blog > .submitted .username {
+}
+
+.node-blog > .submitted .time {
+}
+
+/* Blog Field Image */
+.node-blog .field-type-image {
+}
+
+/* Blog Links */
+.node-blog .menu {
+}
+
+.node-blog ul.links {
+}
+
+.node-blog ul.links li {
+}
+
+.node-blog ul.links li a {
+}
+
+.node-blog ul.links li a:hover,
+.node-blog ul.links li a:active,
+.node-blog ul.links li a:focus {
+}
+
+.node-blog ul.links li.node-readmore a {
+}
+
+.node-blog ul.links li.comment-add a {
+}
+
+.node-blog ul.links li.comment-comments a {
+}
+
+.node-blog ul.links li.comment-new-comments a {
+}
+
+.node-blog ul.links li.blog_usernames_blog a {
+}
+
+.node-blog ul.links li.print_html a {
+}
+
+.node-blog ul.links li.print_email a {
+}
+
+.node-blog ul.links li.print_pdf a {
+}
+
+.node-blog ul.links li.first {
+}
+
+.node-blog ul.links li.last {
+}
+
+/* Blog Workflow states */
+.page-blog .article-add {
+}
+
+.page-blog .article-edit {
+}
+
+.page-blog .article-delete {
+}
+
+.page-blog .article-preview {
+}
+
+.page-blog .article-sticky {
+}
+
+.page-blog .article-promoted {
+}
+
+/* Status */
+.page-blog .article-unpublished {
+}
+
+/**
+ * Misc.
+ */
+
+/* Skinr article title alignment */
+.ta-l .article-title {
+  text-align: left;
+}
+
+.ta-r .article-title {
+  text-align: right;
+}
+
+.ta-c .article-title {
+  text-align: center;
+}

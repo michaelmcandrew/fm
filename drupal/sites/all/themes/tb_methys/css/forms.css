@@ -1,0 +1,502 @@
+form {
+  margin: 0 0 1em;
+  padding: 0;
+}
+
+input,
+textarea,
+select {
+  border: 1px solid #e5e5e5;
+  margin: 0;
+  font-size: 1em;
+  font-family: Georgia, "Times New Roman", Times, serif; /* Need to define font-family */
+}
+
+label {
+  font-weight: normal;
+}
+
+fieldset {
+  background: transparent;
+  border: 1px solid #CCC;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+fieldset fieldset:last-child {
+  margin-bottom: 0;
+}
+
+legend {
+  font-weight: bold;
+}
+
+/**
+ * Drupal Form
+ */
+.form-wrapper {
+}
+
+.form-item,
+.form-action {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.form-item label {
+}
+
+.form-item label.option {
+}
+
+.description,
+.form-item .description {
+}
+
+.form-item .description,
+fieldset .description,
+.fieldset-layout-settings dd {
+  font-size: 0.92em;
+  color: #7B7B7B;
+}
+
+span.form-required,
+span.marker {
+  color: #ff0066;
+}
+
+ul.tips pre {
+  font-size: 10px;
+}
+
+/* --- Text Inputs --- */
+.form-text,
+textarea {
+  border: 1px solid #e5e5e5;
+  color: #666;
+  height: auto;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.form-text:hover,
+.form-text:focus,
+textarea:hover,
+textarea:focus {
+}
+
+#edit-openid-identifier {
+  width: 85%;
+  margin-bottom: 5px;
+}
+
+.form-item textarea.error {
+  padding: 2px;
+}
+
+.container-inline .form-item input {
+	vertical-align: middle;
+}
+
+.form-item input.error, 
+.form-item textarea.error, 
+.form-item select.error {
+  border: 1px solid #ff0066;
+}
+
+#edit-date {
+  min-width: 145px;
+}
+
+.form-item-status { 
+  overflow: hidden;
+} 
+
+.form-item-status input.form-radio {
+  display:block;
+  float: left;
+  margin-top: 3px;
+  margin-right: 5px;
+} 
+
+.form-item-status label.option {
+  display:block;
+  float: left;
+}
+
+/* --- Buttons --- */
+input.form-submit,
+a.button {
+  padding: 2px 10px;
+}
+
+input.form-submit:hover,
+input.form-submit:focus,
+a.button:hover,
+a.button:focus {
+}
+
+span.button {
+}
+
+span.button input.form-submit {
+  background: #ff0066;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 4px 10px 3px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+span.button input.form-submit:hover,
+span.button input.form-submit:focus {
+  background: #111;
+}
+
+/* --- Checkbox --- */
+.form-type-checkbox label {
+}
+
+input.form-checkbox {
+  border: 0;
+}
+
+.form-type-checkbox .description {
+  margin-left: 0;
+}
+
+/* --- Radio --- */
+.form-type-radio label {
+}
+
+input.form-radio {
+  border: 0;
+}
+
+.form-type-radio .description {
+  margin-left: 0;
+}
+
+/* --- Selects --- */
+select,
+.form-select {
+}
+
+/* --- Fieldsets --- */
+fieldset {
+  background: transparent;
+  border: 1px solid #e5e5e5;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+fieldset fieldset:last-child {
+  margin-bottom: 0;
+}
+
+*:first-child+html fieldset {
+  background-color: transparent;
+  background-position: 0 10px;
+  padding: 0 10px 10px;
+}
+
+*:first-child+html fieldset > .description,
+*:first-child+html fieldset .fieldset-wrapper .description {
+  padding-top: 10px;
+}
+
+legend.fieldset-legend {
+}
+
+fieldset legend {
+  display: block;
+  font-weight: 400;
+  padding: 0 10px 0 0;
+}
+
+*:first-child+html fieldset legend,
+*:first-child+html fieldset.collapsed legend {
+  display: inline;
+}
+
+html.js fieldset.collapsed {
+  background: transparent;
+  padding-top: 5px;
+}
+
+/* --- Misc. --- */
+.hide-label label {
+  background: none;
+  display: none;
+}
+
+.exposed-filters .form-item {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+#article-admin-filter ul {
+  padding: .5em 0;
+}
+
+#edit-operation-wrapper select {
+  margin: .5em;
+}
+
+div.resizable-textarea textarea {
+  margin-top: 0;
+}
+
+/** 
+ * Specific Forms
+ */
+
+/* --- Search --- */
+#headline-wrapper .block-search {
+  border-left: 1px solid #222;
+  float: right;
+  height: 30px;
+}
+  
+#headline-wrapper .form-item {
+  margin: 0;
+}
+
+#search-block-form {
+  margin-bottom: 0;
+}
+
+#search-block-form > div {
+}
+
+#search-block-form .container-inline{
+}
+
+#edit-search-block-form-1-wrapper {
+}
+
+#search-block-form label {
+}
+
+#search-block-form input {
+}
+
+#search-block-form .form-submit {
+  background: url(../images/btn-search.gif) 0 0 no-repeat;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  height: 30px;
+  text-indent: -999em;
+  width: 30px;
+}
+
+#search-block-form .form-submit:hover,
+#search-block-form .form-submit:focus,
+#search-block-form .form-submit:active {
+  background-position: 0 -30px;
+}
+
+#search-block-form .form-text {
+  background: none;
+  border: none;
+  color: #9E9991;
+  margin-top: 4px;
+  padding-left: 10px;
+  vertical-align: top;
+  width: 200px;
+  
+}
+
+/* Advanced search form */
+fieldset#edit-advanced fieldset {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+fieldset#edit-advanced fieldset .fieldset-legend {
+  background: none;
+  padding-left: 1em;
+}
+
+.advanced-search-submit {
+  clear: both;
+}
+
+.search-advanced .criterion {
+  float: none;
+  margin: 0 5px;
+}
+
+#edit-keywords-fieldset .form-item:first-child {
+  margin-top: 5px;
+}
+
+#search-form {
+  margin: 10px 0;
+}
+
+#search-form > div {
+}
+
+#search-form .container-inline {
+}
+
+#search-form label {
+  vertical-align: middle;
+}
+
+#search-form input {
+}
+
+#search-form .form-item {
+  overflow: hidden;
+}
+
+#search-form .form-submit {
+  padding: 4px 10px 2px;
+  vertical-align: middle;
+}
+
+#search-form .form-item-or label,
+#search-form .form-item-phrase label,
+#search-form .form-item-negative label {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  min-width: 190px;
+}
+
+#search-form .form-item-or .form-text,
+#search-form .form-item-phrase .form-text,
+#search-form .form-item-negative .form-text {
+  float: left;
+  min-width: 250px;
+}
+
+
+input.form-checkbox {
+  padding: 0;
+  margin-right: 5px;	
+}
+
+/**
+ * User login
+ */
+#user-login-form .form-item-name {
+}
+
+#user-login-form .form-item-pass {
+}
+
+#user-login-form .form-action {
+}
+
+#user-login-form ul {
+  margin: 0;
+  padding: 0;
+}
+
+#user-login ul {
+  margin: 0 0 5px;
+}
+
+#user-login ul li {
+  margin: 0;
+}
+
+#user-login-form .item-list li {
+  list-style: none;
+  margin: 0;
+}
+
+#user-login-form .item-list li a {
+  background-position: 0 9px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#user-login-form li.openid-link,
+#user-login li.openid-link {
+  background: none;
+  padding-left: 0;
+}
+
+#user-login-form li.openid-link a,
+#user-login li.openid-link a {
+ background-position: 0 4px;
+}
+
+#user-admin-filter ul li,
+#article-admin-filter ul li {
+  list-style: none;
+}
+
+#main-content #user-login div.item-list {
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+#main-content #user-login div.item-list li {
+  border-bottom: none;
+}
+
+#main-content #user-login div.item-list li.openid-link a {
+  background-position: 0 0;
+}
+
+#main-content #user-login #edit-openid-identifier {
+  width: auto;
+}
+
+/* --- Tips overrides --- */
+.field-type-text-long fieldset {
+  padding: 10px 0;
+}
+
+.field-type-text-long fieldset .form-item {
+  margin: 0;
+  padding: 0 0 0 15px;
+}
+
+fieldset .filter-help {
+  padding: 0 15px 5px;
+}
+
+.filter-guidelines {
+  font-size: .923em;
+  margin: 0;
+  padding: 5px 18px 10px;
+}
+
+/* Special case modules */
+#devel-switch-user-form {
+  margin-bottom: 0;
+}
+
+/* contact form  */
+.contact-form .form-item-copy {
+  overflow: hidden;
+}
+
+.contact-form .form-item-copy input.form-checkbox {
+  float: left;
+  margin: 2px 5px 0 0;
+}
+
+.contact-form .form-item-copy label.option {
+  display: block;
+  float: left;
+}
+
+.page-comment-reply-node .comment-form {
+  margin-left: 80px;
+}
+
+.page-comment-reply .comment-form {
+  margin-left: 0;
+}
+

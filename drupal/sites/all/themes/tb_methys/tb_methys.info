@@ -1,0 +1,193 @@
+ ; Theme info
+name = 'Tb Methys'
+description = TB Methys is a light weight Drupal theme that is based on <a href="http://themebrain.com/about-nucleus">Nucleus</a> and shows a slick styling of some basic Drupal content types such as blog, poll, forum and a contact form. Requires <a href="http://drupal.org/project/nucleus">Nucleus</a> base theme.
+core = '7.x'
+engine = 'phptemplate'
+base theme = 'nucleus'
+screenshot = 'screenshot.png'
+
+; Stylesheets
+stylesheets[all][] = 'css/html-elements.css'
+stylesheets[all][] = 'css/forms.css'
+stylesheets[all][] = 'css/page.css'
+stylesheets[all][] = 'css/articles.css'
+stylesheets[all][] = 'css/comments.css'
+stylesheets[all][] = 'css/forum.css'
+stylesheets[all][] = 'css/fields.css'
+stylesheets[all][] = 'css/blocks.css'
+stylesheets[all][] = 'css/panel-panes.css'
+stylesheets[all][] = 'css/navigation.css'
+stylesheets[all][] = 'css/fonts.css'
+stylesheets[all][] = 'css/blocks-style.css'
+
+;Javascripts
+scripts[] = 'js/jquery.matchHeights.min.js'
+
+; Seperate CSS3 to css3.css
+stylesheets[all][] = 'css/css3.css'
+
+; Stylesheets for Print Media
+stylesheets[print][] = 'css/print.css'
+
+; Conditional Stylesheets for IE
+stylesheets-conditional[IE][all][] = css/ie.css
+stylesheets-conditional[IE 9][all][] = css/ie7.css
+stylesheets-conditional[IE 7][all][] = css/ie7.css
+
+; Scripts in this theme
+scripts[] = 'js/tb_methys.js'
+
+; Core regions
+regions[content] = 'Main content'
+regions[headline] = 'Headline'
+regions[header] = 'Header'
+regions[menu_bar] = 'Menu bar'
+regions[slideshow] = 'Slideshow'
+regions[feature] = 'Feature'
+regions[highlighted] = 'Highlighted'
+regions[footer] = 'Footer'
+regions[help] = 'Help'
+regions[page_top] = 'Page top'
+regions[page_bottom] = 'Page bottom'
+regions[mass_top] = 'Mass top'
+
+; Sidebar regions
+regions[sidebar_first] = 'Sidebar first'
+regions[sidebar_second] = 'Sidebar second'
+
+; panel regions
+regions[panel_bottom_1] = 'Panel bottom column 1'
+regions[panel_bottom_2] = 'Panel bottom column 2'
+regions[panel_bottom_3] = 'Panel bottom column 3'
+regions[panel_bottom_4] = 'Panel bottom column 4'
+
+; Features (core settings)
+features[] = 'logo'
+features[] = 'name'
+features[] = 'slogan'
+features[] = 'node_user_picture'
+features[] = 'comment_user_picture'
+features[] = 'comment_user_verification'
+features[] = 'favicon'
+features[] = 'go_to_top_button'
+features[] = 'secondary_menu'
+
+; Breadcrumb
+settings[breadcrumb_display] = 'yes'
+settings[breadcrumb_separator] = ' &#187; '
+settings[breadcrumb_home] = 1
+
+; Layouts
+pages[default] = 'Normal page'
+
+; Default settings
+settings[grid] = 'fixed-grid-24'
+settings[layout_width] = '960px'
+settings[layout_debug_grid] = 0
+settings[page_layout] = 'default'
+
+; Sidebar width settings
+settings[sidebar_first_width] = 5
+settings[sidebar_second_width] = 7
+
+; Panel width settings
+settings[panel_bottom_1_width] = 6
+settings[panel_bottom_2_width] = 6
+settings[panel_bottom_3_width] = 5
+settings[panel_bottom_4_width] = 7
+
+; Fonts
+settings[base_font] = 'bf-a'
+settings[site_name_font] = ''
+settings[site_slogan_font] = ''
+settings[page_title_font] = ''
+settings[node_title_font] = ''
+settings[comment_title_font] = ''
+settings[block_title_font] = ''
+settings[font_size] = 'fs-small'
+
+; Extra Typo
+settings[load_extra_typo_styles] = 1
+
+; Default fonts family
+default_fonts[sss] = 'Calibri, Candara, Helvetica Neue, Trebuchet MS, Arial, Helvetica, sans-serif'
+default_fonts[ssl] = 'Verdana, Geneva, Arial, Helvetica, sans-serif'
+default_fonts[a] = 'Arial, Helvetica, sans-serif'
+default_fonts[ss] = 'Garamond, Perpetua, Times New Roman, serif'
+default_fonts[sl] = 'Georgia, Baskerville, Palatino, Palatino Linotype, Book Antiqua, Times New Roman, serif'
+default_fonts[m] = 'Segoe UI, Myriad Pro, Myriad, Arial, Helvetica, sans-serif;'
+default_fonts[l] = 'Lucida Sans Unicode, Lucida Sans, Lucida Grande, Verdana, Geneva, sans-serif'
+default_fonts[ms] = 'Consolas, Monaco, Courier New, Courier, monospace'
+
+block_styles[raw] = 'Raw'
+block_styles[badge] = 'Badge'
+block_extend_classes[badge-new] = 'Badge New'
+block_extend_classes[badge-hot] = 'Badge Hot'
+block_extend_classes[badge-top] = 'Badge Top'
+block_extend_classes[badge-popular] = 'Badge Popular'
+block_extend_classes[badge-updated] = 'Updated'
+
+block_extended_class_groups[group_badge][group_title] = 'Badge block'
+block_extended_class_groups[group_badge][supported_styles] = 'badge'
+block_extended_class_groups[group_badge][classes] = 'badge-new, badge-hot, badge-top, badge-popular, badge-updated'
+
+; Custom Blocks
+block_styles[custom_block] = 'Custom Blocks'
+block_extend_classes[no-title-line] = 'No title line'
+block_extend_classes[breaking-news] = 'Breaking news'
+block_extend_classes[images-gallery] = 'Images gallery'
+block_extend_classes[contact] = 'Contact'
+
+block_extended_class_groups[group_custom_block][group_title] = 'Custom Blocks'
+block_extended_class_groups[group_custom_block][supported_styles] = 'badge, custom_block'
+block_extended_class_groups[group_custom_block][classes] = 'no-title-line, breaking-news, images-gallery, contact'
+
+; Superfish Styles
+superfish_styles[methys] = 'Methys Style for Superfish'
+settings[superfish_extend_style_1] = 'methys'
+superfish_styles[methys] = 'Methys Style for SF NavBar'
+settings[superfish_extend_style_2] = 'methys'
+
+; Quicktabs Styles
+quicktabs_styles[methys] = 'Methys Style for Quicktabs'
+settings[quicktabs_extend_style_quicktabs] = 'methys'
+
+; Supported Skins
+skins[red] = 'Red Style'
+skins[blue] = 'Blue Style'
+skins[green] = 'Green Style'
+skins[purple] = 'Purple Style'
+
+settings[default_region_footer_style] = 'raw'
+settings[default_block_views_breaking_news_-block_style] = 'custom_block'
+settings[default_block_views_breaking_news_-block_extend_class] = 'group_custom_block breaking-news'
+settings[default_block_views_latest_news_panel-block_style] = 'badge'
+settings[default_block_views_latest_news_panel-block_extend_class] = 'group_badge badge-hot'
+settings[default_block_views_most_read-block_style] = 'badge'
+settings[default_block_views_most_read-block_extend_class] = 'group_badge badge-top'
+settings[default_block_block_4_style] = 'badge'
+settings[default_block_block_4_extend_class] = 'group_badge badge-popular'
+settings[default_block_block_5_style] = 'badge'
+settings[default_block_block_5_extend_class] = 'group_badge badge-updated, group_badge contact'
+settings[default_block_views_top_trends-block_style] = 'badge'
+settings[default_block_views_top_trends-block_extend_class] = 'group_badge badge-new'
+settings[default_block_views_images_gallery-block_style] = 'badge'
+settings[default_block_views_images_gallery-block_extend_class] = 'group_custom_block images-gallery'
+settings[default_block_quicktabs_quicktabs_style] = 'custom_block'
+settings[default_block_quicktabs_quicktabs_extend_class] = 'group_custom_block no-title-line'
+
+settings[toggle_logo] = 1
+settings[toggle_name] = 0
+settings[toggle_slogan] = 0
+settings[toggle_node_user_picture] = 1
+settings[toggle_comment_user_picture] = 1
+settings[toggle_comment_user_verification] = 1
+settings[toggle_favicon] = 1
+settings[toggle_secondary_menu] = 0
+settings[default_logo] = 1
+settings[default_favicon] = 1
+
+settings[default_logo] = 1
+settings[logo_path] = ''
+settings[default_favicon] = 1
+settings[favicon_path] = ''

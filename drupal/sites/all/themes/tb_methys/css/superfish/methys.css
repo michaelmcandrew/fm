@@ -1,0 +1,217 @@
+.sf-menu.sf-style-methys {
+  border-bottom: 5px solid #111;
+  border-top: 1px solid #e5e5e5;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.sf-menu.sf-style-methys ul {
+	padding-left: 0;
+}
+
+.sf-menu.sf-style-methys li {
+  margin: 0 15px 0 0;
+  padding: 5px 0;
+}
+
+.sf-menu.sf-style-methys li.last {
+  margin-right: 0;
+}
+
+.sf-menu.sf-style-methys a {
+	color: #111;
+	font-family: 'bebasbeueregular';
+	padding: 0;
+	text-decoration: none;
+	font-size: 2.16em;
+	text-transform: uppercase;
+	z-index: 10000;
+}
+
+/* "Have child" Item */
+.sf-menu.sf-style-methys li.menuparent {
+}
+
+.sf-menu.sf-style-methys a.menuparent {
+}
+
+/* Child Menu */
+.sf-menu.sf-style-methys ul {
+  background: #fff;
+  border: 1px solid #111;
+  border-bottom: 5px solid #111;
+}
+
+.sf-menu.sf-style-methys ul li {
+  border-top: 1px dotted #d5d5d5;
+  padding: 0;
+}
+
+.sf-menu.sf-style-methys ul li.first {
+  border-top: none;
+}
+
+.sf-menu.sf-style-methys ul li a {
+  background: url(../../images/bullet.gif) 10px 14px no-repeat;
+  color:#666;
+  padding: 10px 10px 10px 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.sf-menu.sf-style-methys ul li .sf-sub-indicator {
+  display: none;
+}
+
+/* Hover Links */
+.sf-menu.sf-style-methys a:hover,
+.sf-menu.sf-style-methys a:focus,
+.sf-menu.sf-style-methys a:active {
+  color: #ff0066;
+}
+
+/* Child Menu Items Hover */
+.sf-menu.sf-style-methys ul li a:focus,
+.sf-menu.sf-style-methys ul li a:hover,
+.sf-menu.sf-style-methys ul li a:active {
+  background-color: #ff0066;
+  background-position: 10px -41px;
+  color: #FFF;
+}
+
+.sf-menu.sf-style-methys ul li li a {
+  background-color: #fff;
+  background-position: 10px 14px;
+  color:#666;
+}
+
+.sf-menu.sf-style-methys li.sfHover > a.sf-with-ul {
+  color: #ff0066;
+}
+
+.sf-menu.sf-style-methys li.sfHover li > a.sf-with-ul:hover {
+  color: #fff;
+}
+
+/* Active Links */
+.sf-menu.sf-style-methys a.active {
+  color: #ff0066;
+}
+
+.sf-menu.sf-style-methys .active-trail .sf-depth-1 {
+	color: #ff0066;
+}
+
+/* Child Menu Items Active */
+.sf-menu.sf-style-methys ul li a.active {
+  color: #ff0066;
+}
+
+.sf-menu.sf-style-methys ul li a.active:hover {
+  color: #fff;
+}
+
+/* Navbar */
+.sf-menu.sf-style-methys.sf-navbar {
+}
+
+.sf-menu.sf-style-methys.sf-navbar li.sf-depth-2 {
+  border-top: none;
+  border-right: 1px solid #111;
+  margin-right: 0;
+}
+
+/* MegaMenu */
+.sf-menu.sf-style-methys span.sf-description {
+	color: #999;
+	display: block;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	margin: 5px 0 0 5px;
+	padding: 0;
+}
+
+.sf-menu.sf-style-methys a.sf-with-ul {
+	padding-right: 15px;
+}
+
+.sf-menu.sf-style-methys.rtl a.sf-with-ul { /* RTL */
+	padding-left: 2.25em;
+	padding-right: 1em; 
+}
+
+.sf-menu.sf-style-methys ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+	display: inline;
+	float: left;
+	width: 12em;
+}
+
+.sf-menu.sf-style-methys.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+	float: right; /* RTL */
+}
+
+.sf-menu.sf-style-methys ul.sf-megamenu li.sf-megamenu-wrapper ol,
+.sf-menu.sf-style-methys ul.sf-megamenu li.sf-megamenu-wrapper ol li {
+	margin: 0;
+	padding: 0;
+}
+
+.sf-menu.sf-style-methys li.sf-parent-children-1 ul.sf-megamenu {
+	width: 12em;
+}
+
+.sf-menu.sf-style-methys li.sf-parent-children-10 ul.sf-megamenu {
+	width: 120em;
+}
+
+.sf-menu.sf-style-methys li.sf-parent-children-2 ul.sf-megamenu {
+	width: 24em;
+}
+
+.sf-menu.sf-style-methys li.sf-parent-children-3 ul.sf-megamenu {
+	width: 36em;
+}
+
+.sf-menu.sf-style-methys li.sf-parent-children-4 ul.sf-megamenu {
+	width: 48em;
+}
+
+.sf-menu.sf-style-methys li.sf-parent-children-5 ul.sf-megamenu {
+	width: 60em;
+}
+
+.sf-menu.sf-style-methys li.sf-parent-children-6 ul.sf-megamenu {
+	width: 72em;
+}
+
+.sf-menu.sf-style-methys li.sf-parent-children-7 ul.sf-megamenu {
+	width: 84em;
+}
+
+.sf-menu.sf-style-methys li.sf-parent-children-8 ul.sf-megamenu {
+	width: 96em;
+}
+
+.sf-menu.sf-style-methys li.sf-parent-children-9 ul.sf-megamenu {
+	width: 108em;
+}
+
+a > .sf-sub-indicator {
+  background: url(../../images/arrow-4.png) 0 0 no-repeat;
+  right: 0;
+  top: 4px;
+  height: 22px;
+  width: 10px;
+  z-index: 999;
+}
+
+a:focus > .sf-sub-indicator, 
+a:hover > .sf-sub-indicator, 
+a:active > .sf-sub-indicator, 
+li:hover > a > .sf-sub-indicator, 
+li.sfHover > a > .sf-sub-indicator {
+  background-position: 0 -56px;
+}

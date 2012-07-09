@@ -1,0 +1,173 @@
+/**
+  Red Color
+*/
+/* breaking news */
+.breaking-news .block-title {
+  background: url(images/healineswrap-bg.png) 100% 0 no-repeat;   
+}
+
+/* Search button */
+#search-block-form .form-submit:hover,
+#search-block-form .form-submit:focus,
+#search-block-form .form-submit:active {
+  background: url(images/btn-search.gif) 0 -30px no-repeat;
+}
+
+/* Navigation */
+.sf-menu.sf-style-methys a.active {
+  color: #66aa22;
+}
+
+/* Hover Links */
+.sf-menu.sf-style-methys a:hover,
+.sf-menu.sf-style-methys a:focus,
+.sf-menu.sf-style-methys a:active {
+  color: #66aa22;
+}
+
+/* Child Menu Items Hover */
+.sf-menu.sf-style-methys ul li a:focus,
+.sf-menu.sf-style-methys ul li a:hover,
+.sf-menu.sf-style-methys ul li a:active {
+  background-color: #66aa22;
+}
+
+.sf-menu.sf-style-methys li.sfHover > a.sf-with-ul {
+  color: #66aa22;
+}
+
+/* Active Links */
+.sf-menu.sf-style-methys a.active {
+  color: #66aa22;
+}
+
+.sf-menu.sf-style-methys .active-trail .sf-depth-1 {
+	color: #66aa22;
+}
+
+/* Child Menu Items Active */
+.sf-menu.sf-style-methys ul li a.active {
+  color: #66aa22;
+}
+
+/* View Slideshow */
+#slideshow-wrapper .views_slideshow_controls_text span {
+  background: url(images/btn-controls.png) 0 -51px no-repeat;  
+}
+
+#slideshow-wrapper .views_slideshow_controls_text span.views-slideshow-controls-text-next {
+  background-position: 0 0;
+}
+
+#slideshow-wrapper .views-field-title a {
+  color: #66aa22; 
+}
+
+/* mass top title */
+.mass-top .block-title span {
+  color: #66aa22;
+}
+
+.mass-top .block-title:hover {
+  border-bottom: none;
+}
+
+.first-word {
+  color: #66aa22;
+}
+
+.mass-top .views-field-title a:hover,
+.mass-top .views-field-title a:active,
+.mass-top .views-field-title a:focus {
+  color: #66aa22;
+}
+
+/* date */
+.submitted-date {
+  background: url(images/date-bg.png) no-repeat 0 0;
+}
+
+.node-title a:hover, 
+.node-title a:active, 
+.node-title a:focus {
+  color: #66aa22;
+}
+
+.block-title:hover {
+  border-bottom: 1px solid #66aa22;
+  color: #66aa22;
+}
+
+.top-trends .views-field-title a:hover,
+.top-trends .views-field-title a:focus,
+.top-trends .views-field-title a:active {
+  color: #66aa22;
+}
+
+/* paging */
+ul.pager li a,
+ul.pager li span {
+ background: url(images/paging.png) 0 0 no-repeat;
+}
+
+ul.pager li.pager-first a {
+  background: url(images/paging.png) 0 -60px no-repeat;
+}
+
+ul.pager li.pager-previous a {
+  background: url(images/paging.png) 0 -40px no-repeat;
+}
+
+ul.pager li.pager-next a {
+  background: url(images/paging.png) 0 -80px no-repeat;
+}
+
+ul.pager li.pager-last a {
+  background: url(images/paging.png) 0 -100px no-repeat;
+}
+
+/* contact */
+.contact a {
+  color: #66aa22;
+}
+
+/* Back To Top */
+a.btn-btt:hover,
+a.btn-btt:active,
+a.btn-btt:focus {
+  background-color: #66aa22;
+}
+
+/* button */
+span.button input.form-submit {
+  background: #66aa22;
+}
+
+.form-item input.error, 
+.form-item textarea.error, 
+.form-item select.error {
+  border: 1px solid #66aa22;
+}
+
+span.form-required, 
+span.marker {
+  color: #66aa22;
+}
+
+/* comment  */
+.comment-title a:hover, 
+.comment-title a:active, 
+.comment-title a:focus {
+  color: #66aa22;
+}
+
+/* blog */
+.page-blog ul.action-links li a,
+.page-forum ul.action-links li a {
+  background: #66aa22;
+}
+
+/* tabs */
+ul.primary li a:hover {
+  color: #66aa22;
+}

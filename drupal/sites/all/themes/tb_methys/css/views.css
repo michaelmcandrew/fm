@@ -1,0 +1,302 @@
+/**
+ * Common View Elements
+ */
+ 
+/* --- Views Field --- */
+.views-field {
+}
+
+.field-content {
+}
+
+/* Views Field Title */
+.views-field-title {
+}
+
+.views-field-title .field-content {
+}
+
+/* Views Field Image */
+.views-field-field-image {
+}
+
+.views-field-field-image .field-content {
+}
+
+/* Views Field Body */
+.views-field-body {
+}
+
+.views-field-body .field-content {
+}
+
+/* Views Field Changed */
+.views-field-changed {
+}
+
+.views-field-changed .field-content {
+}
+
+/* --- Views Inline Grid --- */
+.views-row {
+}
+
+.views-row-odd {
+}
+
+.views-row-even {
+}
+
+.views-col {
+}
+
+.cols-1 .views-col {
+  width: 100%;
+}
+
+.cols-2 .views-col {
+  width: 50%;
+}
+
+.cols-3 .views-col {
+  width: 33.33%;
+}
+
+.cols-4 .views-col {
+  width: 25%;
+}
+
+.cols-5 .views-col {
+  width: 20%;
+}
+
+.cols-6 .views-col {
+  width: 16.66%;
+}
+
+/**
+ * Supported Views Formats
+ */
+/* --- Slideshow --- */
+#slideshow-wrapper .container {
+}
+
+#slideshow-wrapper .block-content {
+  padding: 0;
+}
+
+#slideshow-wrapper .region-slideshow {
+  position: relative;
+}
+
+/* desc */
+.slideshow-group-fields-wrapper {    
+  position: absolute;
+  left: 320px;
+  top: 0;
+  text-align: center;
+  height: 320px;
+  width: 320px;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+/* Titles */
+#slideshow-wrapper .views-field-title {  
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+#slideshow-wrapper .views-field-title .field-content {
+  display: block;
+  padding: 45px 15px 10px 15px;
+  font-size: 2em;
+  line-height: normal;
+}
+
+#slideshow-wrapper .views-field-title a {
+  color: #ff0066;
+}
+
+#slideshow-wrapper .views-field-title a:hover,
+#slideshow-wrapper .views-field-title a:active,
+#slideshow-wrapper .views-field-title a:focus {
+  text-decoration: none;
+}
+
+#slideshow-wrapper .views-field-body {
+  color: #aeaeae;
+  width: 100%; 
+}
+
+#slideshow-wrapper .views-field-body .field-content {
+  padding: 0 15px;
+}
+
+#slideshow-wrapper .views-row .views-field-title,
+#slideshow-wrapper .views-row .views-field-body {
+  display: none;
+}
+
+
+#slideshow-wrapper .views-row:hover .views-field-title,
+#slideshow-wrapper .views-row:focus .views-field-title,
+#slideshow-wrapper .views-row:hover .views-field-body,
+#slideshow-wrapper .views-row:focus .views-field-body {
+  display: block;
+}
+
+#slideshow-wrapper .views-row:hover .slideshow-group-fields-wrapper,
+#slideshow-wrapper .views-row:hover .slideshow-group-fields-wrapper,
+#slideshow-wrapper .views-row:hover .slideshow-group-fields-wrapper {
+  background: url(../images/bg-black.png) 0 0 repeat; 
+}
+
+/* Slideshow Navigator */
+#slideshow-wrapper .views-slideshow-controls-bottom {
+  font-size: .92em;
+  height: auto;
+  width: auto;
+  z-index: 20; /* if you have more than 18 images in slideshow, increase this value */
+}
+
+#slideshow-wrapper .region-slideshow:hover .views-slideshow-controls-bottom {
+  display: block;
+}
+
+#slideshow-wrapper .views-slideshow-controls-top {
+  display: none;
+}
+
+#slideshow-wrapper .views_slideshow_controls_text {
+  background: #333;
+  color: #CCC;
+  float: left;
+}
+
+#slideshow-wrapper .views_slideshow_controls_text span {
+  background: url(../images/btn-controls.png) 0 -51px no-repeat;  
+  cursor: pointer;
+  display: block;
+  height: 51px;
+  width: 36px;
+  overflow: hidden;
+  text-indent: -999em;
+  position: absolute;
+  left: 0;
+  top: 130px;
+  z-index: 20;
+  
+}
+
+#slideshow-wrapper .views_slideshow_controls_text span.views-slideshow-controls-text-next {
+  background-position: 0 0;
+  right: -1px;
+  left: auto;
+}
+
+#slideshow-wrapper .views_slideshow_controls_text span.views-slideshow-controls-text-pause {
+  display: none;
+}
+
+#slideshow-wrapper .views_slideshow_controls_text span a {
+  color: #fff;
+}
+
+#slideshow-wrapper .views_slideshow_controls_text span:hover {
+}
+
+#slideshow-wrapper .views_slideshow_slide_counter {
+  background: #ff0066;
+  color: #FFF;
+  display: none;
+  float: left;
+  padding: .25em 1em;
+  margin-left: 1px;
+}
+
+/* Slideshow Full Pager */
+#slideshow-wrapper .view > .pager {
+  bottom: 0;
+  height: auto;
+  position: absolute;
+  right: 0;
+  width: auto;
+  z-index: 20; /* if you have more than 18 images in slideshow, increase this value */
+}
+
+/* Slideshow Mini Pager */
+#slideshow-wrapper .views-mini-pager {
+  bottom: 0;
+  height: auto;
+  position: absolute;
+  right: 0;
+  width: auto;
+  z-index: 20; /* if you have more than 18 images in slideshow, increase this value */
+}
+
+/* Top Trends */
+.top-trends { 
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.top-trends .views-field-title {
+  font-size: 1.5em;
+  line-height: 1.3;
+  margin-bottom: 3px;
+}
+
+.top-trends .views-field-title a {
+  color: #111;
+}
+
+.top-trends .views-field-title a:hover,
+.top-trends .views-field-title a:focus,
+.top-trends .views-field-title a:active {
+  color: #ff0066;
+  text-decoration: none;
+}
+
+.top-trends .views-field-changed {
+  background: url(../images/bg-line-3.png) 100% 5px no-repeat;
+  color: #999;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.912em;
+  float: left;
+  margin-right: 5px;
+  padding-right: 8px;
+}
+
+.top-trends .views-field-comment-count {  
+  color: #111;
+  font-size: 0.912em;
+  float: left;
+}
+
+.top-trends .views-field-comment-count span {
+  border-bottom: 1px solid #e5e5e5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-trends .views-field-comment-count span.field-content {
+  color: #111;
+}
+
+.top-trends .views-field-body {
+  clear: both;
+  padding: 10px 0 0;
+}
+
+.views-field-view-node a {
+  background: url(../images/read-more.png) 100% 3px no-repeat;
+  padding: 0 10px 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.912em;
+}
+
+.top-trends.views-row-last {
+  border-bottom: none;
+  padding-bottom: 0;
+}

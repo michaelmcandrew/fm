@@ -1,0 +1,289 @@
+/**
+ * methys Style for Quiktabs
+ */
+
+/* --- Quicktabs ---*/
+.quicktabs-ui-wrapper .block {
+  margin-bottom: 0 !important;
+}
+
+.quicktabs-wrapper {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+}
+
+.quicktabs_main {
+  padding: 5px 15px;
+}
+
+.quicktabs-style-methys ul.quicktabs-tabs {
+  background: url(../../images/bg-line-2.gif) 0 100% repeat-x #f8f8f8;  
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.quicktabs-style-methys ul.quicktabs-tabs li {
+  background: none;
+  border-bottom: none;
+  border-right: 1px solid #e5e5e5;
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.quicktabs-style-methys ul.quicktabs-tabs li.last {
+  border-right: none;
+}
+
+.quicktabs-style-methys ul.quicktabs-tabs li a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+  display: block;
+  float: left;
+  padding: 7px 9px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.quicktabs-style-methys ul.quicktabs-tabs li a:hover,
+.quicktabs-style-methys ul.quicktabs-tabs li a:active,
+.quicktabs-style-methys ul.quicktabs-tabs li a:focus {
+  color: #111;
+  text-decoration: none;
+}
+
+.quicktabs-style-methys ul.quicktabs-tabs li.active a {
+  background: #fff;
+  color: #111;
+}
+
+.quicktabs-style-methys ul.quicktabs-tabs li.last.active {
+  border-right: 1px solid #e5e5e5;
+}
+
+/* --- Arcodion --- */
+.quick-accordion-methys {
+  font-family: Arial, Helvetica, sans-serif; /* Override the font */
+  font-size: 1em; /* Ensure font size is approriate with the container */
+}
+
+/* Accordion Header */
+.quick-accordion-methys .ui-accordion-header {
+  background: #CCC;
+  border-radius: 0;
+  color: #333;
+  font-weight: bold;
+}
+
+.quick-accordion-methys .ui-accordion-header a {
+  color: #333;
+  font-size: 1em;
+  padding: 0.25em 0.5em 0.25em 2em;
+}
+
+.quick-accordion-methys .ui-state-default .ui-icon {
+  background: url(../../images/arrow.png) no-repeat 5px 5px;
+}
+
+/* Hover Accordion Header */
+.quick-accordion-methys .ui-state-hover {
+  background: #333;
+  border: 1px solid #333;
+  color: #fff;
+}
+
+.quick-accordion-methys .ui-state-hover a {
+  color: #fff;
+}
+
+.quick-accordion-methys .ui-state-hover .ui-icon {
+  background: url(../../images/arrow-2.png) no-repeat 5px 5px;
+}
+
+/* Active Accordion Header */
+.quick-accordion-methys .ui-state-active {
+  background: #111;
+  border: 1px solid #e5e5e5;
+  color: #fff;
+}
+
+.quick-accordion-methys .ui-state-active a {
+  color: #fff;
+}
+
+.quick-accordion-methys .ui-state-active .ui-icon {
+  background: url(../../images/arrow-3.png) no-repeat 5px 5px;
+}
+
+/* Accordion Content */
+.quick-accordion-methys .ui-accordion-content {
+  border-radius: 0;
+  padding: 5px 15px;
+}
+
+.quick-accordion-methys .ui-accordion-content li.views-row {
+  padding: 7px 0 7px 15px;
+}
+
+.quick-accordion-methys .ui-accordion-content .views-row {
+  overflow: hidden;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 0;
+}
+
+.quick-accordion-methys .ui-accordion-content .views-row-last {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.quick-accordion-methys .ui-accordion-content .views-field-field-image {
+  float: left;
+  margin-right: 10px;
+}
+
+.quick-accordion-methys .ui-accordion-content .views-field-field-image img {
+  border: 1px solid #000;
+}
+
+.sidebar  .quick-accordion-methys .block {
+  margin-bottom: 10px;
+}
+
+.ui-widget-content a {
+  color: #666;
+}
+
+.ui-widget-content a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.quick-accordion-methys .block .more-link {
+  margin-top: 10px;
+}
+
+.quick-accordion-methys .block .more-link a {
+  background-position: 100% 3px; 
+}
+
+/* --- UI Tabs --- */
+.quicktabs-ui-methys {
+  border: 1px solid #e5e5e5;
+  border-radius: 0;
+  font-family: Arial, Helvetica, sans-serif; /* Override the font */
+  font-size: 1em; /* Ensure font size is approriate with the container */
+  padding: 0;
+}
+
+/* Tabs */
+.quicktabs-ui-methys .ui-tabs-nav {
+  background: #CCC;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+  border-radius: 0;
+  margin: 0;
+  padding: .25em .25em 0;
+}
+
+.quicktabs-ui-methys .ui-tabs-nav li {
+  background: #EEE;
+  border: 1px solid #e5e5e5;
+  border-bottom: 0;
+}
+
+.quicktabs-ui-methys .ui-tabs-nav li a {
+  color: #666;
+  padding: .375em .75em;
+}
+
+.ui-widget-content {
+  border: 1px solid #e5e5e5;
+}
+
+.quicktabs-ui-methys div.views-row {
+  overflow: hidden;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 0;
+}
+
+.quicktabs-ui-methys div.views-row-last {
+  border-bottom: none;
+}
+
+.quicktabs-ui-methys .views-field-field-image {
+  float: left;
+  margin-right: 10px;
+}
+
+.quicktabs-ui-methys  .views-field-field-image img {
+  border: 1px solid #000;
+}
+
+
+/* Hover Tabs */
+.quicktabs-ui-methys .ui-tabs-nav li.ui-state-hover {
+  background: #CCC;
+  border: 1px solid #e5e5e5;
+  border-bottom: 0;
+}
+
+.quicktabs-ui-methys .ui-tabs-nav li.ui-state-hover a {
+  color: #666;
+}
+
+/* Selected Tabs */
+.quicktabs-ui-methys .ui-tabs-nav li.ui-tabs-selected {
+  background: #FFF;
+  border: 1px solid #e5e5e5;
+  border-bottom: 0;
+}
+
+.quicktabs-ui-methys .ui-tabs-nav li.ui-tabs-selected a {
+  color: #333;
+}
+
+/* Tabs Content */
+.quicktabs-ui-methys .ui-tabs-panel {
+  padding: 5px 10px;
+}
+
+/*****/
+.quicktabs_main .block {
+  margin-bottom: 0;
+}
+
+.quicktabs_main div.views-row {
+  border-bottom: 1px dotted #e5e5e5;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+.quicktabs_main div.views-row-last {
+  border-bottom: none;
+}
+ 
+.quicktabs_main .views-field-field-image {
+  float: left;
+  margin-right: 15px;
+}
+
+.quicktabs_main .views-field-field-image img {
+  border: 1px solid #000;
+}
+
+.quicktabs_main .views-field-title a {
+  color: #666;
+}
+
+.quicktabs_main .views-field-title a:hover,
+.quicktabs_main .views-field-title a:focus,
+.quicktabs_main .views-field-title a:active {
+  color: #000;
+  text-decoration: none;
+}
+
